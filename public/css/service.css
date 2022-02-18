@@ -1,0 +1,544 @@
+.form-control {
+    font-size: .8rem !important;
+}
+
+body {
+    color: #5c6975;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.heading-name {
+    border-bottom: none;
+    margin-bottom: 0px;
+    margin-top: 0;
+}
+
+.ng-binding{
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px;
+    font-family: sans-serif;
+}
+
+.heading-name p {
+    color: #ffffff;
+    background: linear-gradient(45deg, #d5135a, #f05924);
+    font-size: 16px;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 0 10px 10px 0;
+    text-align: center;
+    position: absolute;
+    z-index: 99;
+    min-width: 167px;
+    transform: translate(0px);
+}
+
+/*-----Slider -----*/
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper {
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-slide {
+    background-size: cover;
+    background-position: center;
+}
+
+.mySwiper2 {
+    height: 80%;
+    width: 100%;
+}
+
+.mySwiper {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    height: 60px;
+    width: 100%;
+    float: left;
+}
+
+.mySwiper .swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+    opacity: 1;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0 15%;
+    background: #000;
+    object-fit: cover;
+}
+
+/**-------For disable slider dots-------*/
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    display: none;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    display: none;
+}
+
+/**-------For disable slider dots-------*/
+.arrow-text1,
+.arrow-text2 {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.arrow-text1 {
+    right: 10px;
+}
+
+.arrow-text2 {
+    left: 10px;
+}
+
+.arrow-text2::after {
+    content: '\f053';
+    font-family: 'Font Awesome 5 Pro';
+    position: absolute;
+    color: #fff;
+    left: 0;
+    bottom: 15px;
+    font-size: 40px;
+}
+
+.arrow-text1::after {
+    content: '\f054';
+    font-family: 'Font Awesome 5 Pro';
+    position: absolute;
+    bottom: 15px;
+    right: 0;
+    font-size: 40px;
+}
+
+p.hotel-type {
+    display: inline-block;
+    background: linear-gradient(45deg, #d5135a, #f05924);
+    color: white;
+    padding: 10px;
+    margin-left: 5px;
+    margin-bottom: 0;
+    border: 1px solid white;
+    color: white;
+}
+
+.box {
+    position: relative;
+    border-top: 0;
+    margin-bottom: 30px;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 0px;
+    -webkit-transition: .5s;
+    transition: .5s;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    box-shadow: 0 10px 15px -5px rgb(0 0 0 / 7%);
+}
+
+.accor-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.box-body {
+    padding: 1.5rem 1.5rem;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    border-radius: 5px;
+}
+
+ul.nav.nav-tabs.customtab {
+    border: none;
+    flex-direction: column;
+    flex: 0 0 20%;
+    text-align: left;
+}
+
+ul.nav.nav-tabs.customtab li {
+    margin: 0 0 10px;
+    position: relative;
+}
+
+.box-body ul li {
+    line-height: 24px;
+}
+
+ul.nav.nav-tabs.customtab li a.active {
+    background: linear-gradient(45deg, #d5135a, #f05924);
+    border-radius: 5px;
+    border-top-right-radius: 20px;
+    color: #fff;
+    border-bottom-right-radius: 20px;
+    border: none;
+}
+
+.nav-tabs .nav-link {
+    position: relative;
+    color: #5c6975;
+    padding: 0.5rem 1.25rem;
+    border-radius: 5px 5px 0px 0px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    border: 1px solid #d9d9d9;
+}
+
+ul.nav.nav-tabs.customtab li a {
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    padding: 8px 15px;
+    color: #737373;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.tab-content.accord-content {
+    flex: 0 0 75%;
+    margin: 0;
+    min-height: 200px;
+    height: auto;
+    background: #FFE4DC !important;
+}
+
+.panel-group {
+    margin-bottom: 22px;
+}
+
+.panel-group-continuous .panel:last-child {
+    border-radius: 0 0 0.286rem 0.286rem;
+}
+
+.panel-group-simple .panel {
+    background: transparent;
+    box-shadow: none;
+}
+
+.panel {
+    border-top: none !important;
+    margin-bottom: 5px !important;
+    position: relative;
+    /* height: 196px; */
+}
+
+.panel p {
+    position: relative;
+    top: 20px;
+    color: #f44336;
+    background: #FFE4DC !important;
+}
+
+
+div#navpills-1 {
+    position: relative;
+}
+
+/*------Accordion start ----*/
+.accordion {
+    width: 100%;
+    height: 40px;
+    border: none;
+    background: transparent;
+}
+
+.acc-title {
+    position: absolute !important;
+    top: 0px !important;
+    opacity: 1 !important;
+    left: 0 !important;
+    padding: 9px 10px;
+    width: 165px;
+    /* max-width: 165px; */
+    border-radius: 0;
+    text-align: center;
+    color: white;
+    font-family: inherit !important;
+    height: 40px;
+    background: #f44336;
+    z-index: 999;
+    border: none;
+    transform: none !important;
+}
+
+.panel {
+    padding: 0 18px 18px 18px;
+    display: none;
+    overflow: hidden;
+}
+
+button.accordion.active:after {
+    content: "\2212";
+}
+
+button.accordion:after {
+    content: '\002B';
+    color: #f44336;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion:focus {
+    outline: none;
+}
+
+/*------Accordion end ----*/
+
+.price-b {
+    border: 3px dashed #F44336;
+    padding: 10px 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+span.from {
+    color: #f44336;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.a-price {
+    color: #f44336;
+    font-size: 40px;
+    line-height: 1;
+    font-weight: 600;
+    position: relative;
+}
+
+span.info-s {
+    color: white;
+    background: #909090;
+    font-size: 12px;
+    padding: 2px 2px;
+    width: 16px;
+    font-weight: 800;
+    height: 16px;
+    border-radius: 50%;
+    position: absolute;
+    box-sizing: border-box;
+    top: 10px;
+    left: 80%;
+    display: inline-block;
+    cursor: auto;
+}
+
+.book_card {
+    padding: 15px;
+    background: #fefeff;
+    box-shadow: 0 10px 15px -5px rgb(0 0 0 / 7%);
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+.form-group label {
+    color: #234076;
+    text-transform: uppercase;
+}
+
+.form-group label {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+span.asterisk {
+    color: red !important;
+}
+
+input#select_date,
+select#adult_count,
+select#child_count {
+    border-radius: 0;
+    border-color: gainsboro;
+    background: white;
+}
+
+.form-control+.input-group-addon:not(:first-child) {
+    border-radius: 0px 5px 5px 0px;
+    border-left: 0;
+}
+
+.input-group .input-group-addon {
+    background-color: #234076 !important;
+    color: #fff !important;
+}
+
+.input-group-addon {
+    font-weight: 300;
+    padding: 0.425rem 0.75rem;
+    border: 1px solid #9e9e9e;
+    line-height: 1.25;
+    color: #2f363c;
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 1rem;
+}
+
+.hotel_detail {
+    background: #ffe4dc;
+    padding: 15px;
+    margin: 20px 0;
+    height: 150px;
+}
+
+form p {
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.btn-primary {
+    background-color: #234076 !important;
+    border-color: #234076 !important;
+    color: #ffffff;
+}
+
+.btn-rounded {
+    border-radius: 60px !important;
+}
+
+.btn {
+    border-radius: 4px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid transparent;
+    cursor: pointer;
+    line-height: inherit;
+    padding: 5px 16px;
+    font-size: 1.1rem;
+}
+
+@media (min-width: 250px) and (max-width: 539px) {
+    .heading-name p {
+        font-size: 70%;
+    }
+
+    .mySwiper .swiper-slide {
+        height: 100%;
+    }
+
+    .mySwiper {
+        height: 50PX;
+    }
+
+    .arrow-text1::after,
+    .arrow-text2::after {
+        font-size: 20px;
+    }
+
+    .arrow-text1,
+    .arrow-text2 {
+        font-size: 13px;
+    }
+
+    .arrow-text2,
+    .arrow-text1 {
+        left: 0;
+        right: 0;
+    }
+
+    .p-btn {
+        display: grid;
+        grid-template-columns: 40% 60%;
+        white-space: nowrap;
+    }
+
+    ul.nav.nav-tabs.customtab {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        font-size: 12px;
+        border-radius: 5px !important;
+    }
+
+    ul.nav.nav-tabs.customtab li {
+        margin: 5px;
+    }
+
+    .accor-div {
+        display: block;
+    }
+
+    ul.nav.nav-tabs.customtab li a.active {
+        border-radius: 5px;
+        padding: 8px;
+    }
+
+    ul.nav.nav-tabs.customtab li a {
+        border-radius: 5px;
+        padding: 8px 3px;
+    }
+
+    .panel p {
+        font-size: 13px;
+    }
+
+    ul.nav.nav-tabs.customtab li a {
+        display: block;
+        text-align: center;
+    }
+
+}
+
+@media (min-width: 540px) and (max-width: 767px) {
+    .heading-name p {
+        font-size: 80%;
+    }
+
+}

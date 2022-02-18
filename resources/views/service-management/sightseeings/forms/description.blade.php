@@ -1,0 +1,1 @@
+<x-service-management.sightseeing.description :sightseeing="$sightseeing ?? null" />

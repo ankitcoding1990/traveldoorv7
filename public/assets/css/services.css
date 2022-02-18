@@ -1,0 +1,40 @@
+<style>
+        .service-tab ul.nav.nav-tabs li:first-child a {
+            border-top-left-radius: 8px !important;
+        }
+
+        .service-tab ul.nav.nav-tabs li:last-child a {
+            border-top-right-radius: 8px !important;
+        }
+
+        .service-tab a.nav-link {
+            border-radius: 0px !important;
+            font-size: 16px;
+        }
+
+        .service-tab a.active {
+            background: #234076 !important;
+            border: 1px solid #234076 !important;
+            font-weight: 600;
+        }
+
+        .add-blackout-days {
+            background: #ec407a !important;
+            border: 0;
+        }
+
+        .service-tab .btn-success.add-blackout-days:hover {
+            background: #e2175b !important;
+        }
+
+        .service-tab ul.nav.nav-tabs {
+            border: 0;
+        }
+
+        @media screen and (max-width:600px) {
+            .service-tab a.nav-link {
+                font-size: 14px;
+            }
+        }
+
+    </style>

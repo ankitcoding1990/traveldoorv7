@@ -1,0 +1,156 @@
+/* loader */
+.loader {
+    position: fixed;
+    z-index: 99999;
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+    text-align: center!important;
+  }
+  .loader .box{
+    position: relative;
+    width: 100px;
+    text-align: center!important;
+    border-radius: 100%;
+    margin: 24% auto;
+    background-color: white;
+    text-align: center!important;
+  }
+/* select2 */
+.select2 .select2-container{
+  width: 100%!important;
+}
+/* form */
+.border-error{
+  border: 1px solid #cf3c63;
+}
+.border-success{
+  border: 1px solid #9e9e9e;
+}
+.iti-flag {
+    width: 20px;
+    height: 15px;
+    box-shadow: 0px 0px 1px 0px #888;
+    background-image: url("{{asset('assets/images/flags.png')}}") !important;
+    background-repeat: no-repeat;
+    background-color: #DBDBDB;
+    background-position: 20px 0
+}
+div#cke_1_contents {
+
+    height: 250px !important;
+}
+
+
+/*.or-choice:before {*/
+    /*content: "OR";*/
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*left: 50%;*/
+    /*background: white;*/
+    /*padding: 10px;*/
+    /*border-radius: 50%;*/
+    /*transform: translate(-50%, -50%);*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    width: 165px;*/
+/*    height: 1px;*/
+/*    background: #ccc;*/
+/*    left: 60px;*/
+/*    top: 10px;*/
+/*}*/
+/*.or-choice::after {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    width: 150px;*/
+/*    height: 1px;*/
+/*    background: #ccc;*/
+/*    top: 10px;*/
+/*    right: 75px;*/
+/*}*/
+.or-choice {
+    width: 100%;
+    background: white;
+    height: 2px;
+    position: relative;
+    margin: 28px auto 20PX;
+    display: block;
+    text-align: center;
+}
+
+/*.content-top-agile {*/
+/*    background-image: url(https://www.wallpapertip.com/wmimgs/196-1963020_website-backgrounds-website-login-page-background.jpg);*/
+/*    background-size: cover;*/
+/*    height: 250px;*/
+/*}*/
+
+
+
+    .iti-flag {
+
+        width: 20px;
+
+        height: 15px;
+
+        box-shadow: 0px 0px 1px 0px #888;
+
+        background-image: url("{{asset('assets/images/flags.png')}}") !important;
+
+        background-repeat: no-repeat;
+
+        background-color: #DBDBDB;
+
+        background-position: 20px 0
+
+    }
+    span.select2.select2-container.select2-container--default.select2-container--below {
+    width: 100% !important;
+}
+select#admin_which9 {
+    width: 100% !important;
+}
+
+.checkbox {
+    display: inline-block;
+    margin: 0;
+}
+
+    div#cke_1_contents {
+
+        height: 250px !important;
+
+    }
+     #table-loader svg{
+    width: 100px;
+    height: 100px;
+    display:inline-block;
+  }
+
+  .btn-fixed-bottom{
+    position: fixed;
+    bottom: 10px;
+    right: 2em;
+    z-index: 9999;
+  }
+
+/* custom-breadcrumb */
+  .custom-breadcrumb{
+    display: inline-block;
+    width: 100%;
+  }
+  .custom-breadcrumb-button{
+    float: right;
+    position: relative;
+    top: -23px!important;
+    right: 1em!important;
+  }
+  .main-sidebar{
+    top:0px !important;
+    background: linear-gradient(to right bottom, #234076, #294780, #2f4e89, #355693, #3b5d9d);
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  .content-header{
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }

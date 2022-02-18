@@ -1,0 +1,1 @@
+<x-status-buttons.active-inactive-buttons :model="$model" :table="$table"/>

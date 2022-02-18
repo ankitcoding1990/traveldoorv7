@@ -1,0 +1,1 @@
+<x-service-management.hotel.rooms :hotel="$model ?? null" />

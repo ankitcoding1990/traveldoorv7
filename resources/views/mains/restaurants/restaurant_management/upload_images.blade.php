@@ -1,0 +1,1 @@
+<x-service-management.restaurant-management.image-form  layout="layouts.main" :restaurant="$restaurant ?? null"/>

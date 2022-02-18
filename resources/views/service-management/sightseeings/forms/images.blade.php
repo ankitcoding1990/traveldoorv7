@@ -1,0 +1,1 @@
+<x-service-management.image-upload :service="'sightseeing'" :referenceId="$id ?? null" />   

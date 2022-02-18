@@ -1,0 +1,1 @@
+<x-helpers.active-or-inactive :model="$model" modelName="Vehicles" column="deleted_at" />
